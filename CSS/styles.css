@@ -1,0 +1,90 @@
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+h1 {
+    margin: 0px;
+    text-align: center;
+    background-image: url("../photos/headerpic.jpg");
+    background-color: rgb(184, 252, 229);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+body {
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+nav {
+    color:rgb(3, 72, 133);
+    text-align: center;
+    font-size: x-large;
+    background-color: whitesmoke;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:3px;
+    margin-bottom:3px;
+    border-radius: 5px;
+}
+ul {
+    /*padding at 0 centers*/
+    padding: 0px;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    opacity: 1;
+}
+
+.headshot {
+    text-align: left;
+    display: inline-block;
+    
+}
+.spacer {
+    margin: 15px;
+    opacity: 0;
+}
+/*                  ABOUT ME BLURB STYLING                  */
+.aboutme {
+    background: rgba(26, 26, 26);
+    background: rgba(26, 26, 26, 0.55);
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+    
+}
+.blurb {
+    text-align: left;
+    display: inline-block;
+    padding: 15px;
+}
+.blurb_title {
+    color: rgba(255, 255, 255, 0.918);
+    font-size: xx-large;
+}
+.blurb_content {
+    color: rgba(255, 255, 255, 0.918);
+    font-size: 20px;
+}
+/* ******************************************************* */
