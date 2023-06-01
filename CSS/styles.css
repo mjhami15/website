@@ -21,6 +21,11 @@ h1 {
     animation-name: fadeIn;
     animation-duration: 1s;
 }
+h2 {
+    background-color: aliceblue;
+    margin: 15px;
+    text-align: center;
+}
 body {
     margin: 0px;
     background-color: rgb(0, 0, 0);
