@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Matt's Fishing Report</title>
     <link rel="icon" href="photos/logo.png" type="image/icon type">
 </head>
-<link rel="stylesheet" href="CSS/styles.css">
+<link rel="stylesheet" href="CSS/fishingstyle.css">
 <body>
     <nav>
         <ul>
@@ -18,13 +19,32 @@
         <br>
         <!--<img src = "photos/canoe.png" alt="Canoe" style= "height:300px;width:300px;align-self: center;">-->
         <br>
-        COMING SOON
         <br>
         <br>
-        <div class = "aboutme">
-            <img src = "photos/canoe.png" alt="Canoe" style= "height:300px;width:300px;align-self: center;border-radius: 10px;border-color: black; border-width: 8px;">
+        <div class = "content">
+            <div class ="content_title">
+                Enter city below to get Matt's current fishing experience rating:
+            </div>
+            <hr>
+            <form id="weather-form">
+                <input type="text" id="city-input" class ="searchbar" placeholder="Enter a city">
+                <button type="submit" class="submit">Get Fishing Report</button>
+            </form>
+            <br>
+            <div class="content_response">
+                <div id="prediction"></div>
+                <br>
+                <div id="weather-info"></div>
+            </div>
+            <hr>
+            
+            <script src="script.js"></script>
         </div>
         
     </h1>
+    <h2>
+        
+    </h2>
+    
 </body>
 </html>
